@@ -1,5 +1,5 @@
 # Emulating SSL and Password Verification
-Cybersecurity Project 
+
 
 Emulated SSL cryptographic protocols and password verification using a SHA-2 hashing algorithm and randomly generated 32-character hexadecimal salt for increased security, with RSA and AES encryption for private and public keys to create an encrypted interaction between client and server that is completely confidential and has complete integrity
 
