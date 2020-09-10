@@ -1,5 +1,5 @@
 # Emulating SSL and Password Verification
-CSCI 3404 Intro to Cybersecurity: Project 2
+Cybersecurity Project
 
 ## Password Hashing
 For hashing the password in the file, we imported hashlib and used a SHA-2 hashing algorithm which is a form of secure hashing algorithm developed by the United States National Security Agency. We decided on this hashing algorithm as it provides great security against collision attacks while still having good performance. For salting we generated a random uuid.hex with the help of the uuid library. This provides us with a 32-character hexadecimal string that we then append to the password before hashing the result. This greatly increases our security against precomputed dictionary attacks. 
