@@ -1,5 +1,5 @@
 # Weather Services 
-RESTful Web Service using public API to read current weather information from data point values to create a daily/weekly forecast web page
+RESTful Web Service using public API to read current weather information from data point values using JSON to create a daily/weekly forecast web page 
 
 
 Reads the current weather information from data point values [https://darksky.net/dev/docs#data-point] to update the webpage for today's weather:
